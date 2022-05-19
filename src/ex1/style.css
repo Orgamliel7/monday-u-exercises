@@ -19,7 +19,13 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #FFF;
-    background-color: var(--dark);
+    background-image: url("Sea_MonBay.jpeg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /*  a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    /* background-size: 900px 700px; /* Resize the background image to cover the entire container */
 }
 
 header {
